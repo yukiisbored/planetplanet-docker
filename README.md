@@ -6,16 +6,16 @@ because planetplanet it self is a static page generator.
 
 A cron daemon with a crontab has been setup to update the pages every 30 mins
 
-# How to use?
+## How to use?
 
-## With Docker Compose
+### With Docker Compose
 
 If you want to use Docker Compose, just modify the included example configuration
 and templates located inside the `myplanet` folder and start it by running:
 
 `docker-compose up -d`
 
-## Without Docker Compose
+### Without Docker Compose
 
 If you don't have Docker compose, your planet folder containing the templates and
 config as a volume, like this:
