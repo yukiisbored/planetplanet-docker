@@ -4,7 +4,7 @@ This is a docker image for planetplanet. This image is created to make deploymen
 of planetplanet easier. This image also contains `lighttpd` as the web server,
 because planetplanet it self is a static page generator.
 
-A cron daemon with a crontab has been setup to update the pages every 30mins
+A cron daemon with a crontab has been setup to update the pages every 30 mins
 
 # How to use?
 
