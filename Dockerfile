@@ -24,6 +24,9 @@ ADD update-page.sh /usr/bin/update-page
 # Add crontab
 ADD crontab /etc/cron.d/autoupdate
 
+# Add example planetplanet configuration
+ADD myplanet /planetplanet/myplanet
+
 # Grant execution rights to cron job and update script
 RUN chmod 0644 /etc/cron.d/autoupdate && \
     chmod 0755 /usr/bin/update-page
