@@ -17,7 +17,7 @@ and templates located inside the `myplanet` folder and start it by running:
 
 ## Without Docker Compose
 
-If you don't have Docker compose, you can mount the `myplanet` as a volume, like
-this:
+If you don't have Docker compose, your planet folder containing the templates and
+config as a volume, like this:
 
 `docker run -d --volume=<myplanet location>:/planetplanet/myplanet yukiisbored/planetplanet`
